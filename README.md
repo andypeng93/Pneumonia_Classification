@@ -25,30 +25,26 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 
 
 #### Visual 1
-![graph1](./Visualizations/Gender.PNG)
-> Gender VS Heart Disease
+![Chest XRay Image 1](./Visualizations/normal.PNG)
+> Normal Chest XRay
 
 #### Visual 2
-![graph2](./Visualizations/ChestPain.PNG)
-> Chest Pain Types VS Heart Disease
+![Chest XRay Image 2](./Visualizations/pneumonia.PNG)
+> Pneumonia Chest XRay
 
 #### Visual 3
-![graph3](./Visualizations/Thal.PNG)
-> Thalium Stress Result VS Heart Disease
+![First Activation](./Visualizations/first_channel.PNG)
+> First Activation of ModelI
 
 #### Visual 4
-![graph4](./Visualizations/Age.PNG)
-> Age of Individuals VS Heart Disease
-
-#### Visual 5
-![graph5](./Visualizations/AgeMax.PNG)
-> Age of Individuals VS Maximum Heart Rate
+![Sixth Activation](./Visualizations/sixth_channel.PNG)
+> Sixth Activation of ModelI
 
 #### Models
-![ROC Curve](./Visualizations/ROC1.PNG)
+![ROC Curve](./Visualizations/AUC_Score.PNG)
 > ROC Curve of the different Models
 
-![Model Results](./Visualizations/ModelResults.PNG)
+![Model Results](./Visualizations/model_table.PNG)
 > Model Results
 
 * Accuracy/ Recall - Baseline Model
@@ -72,7 +68,7 @@ There are many things that we didn't due to lack of time and money constraints. 
 
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./Heart Disease.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+Please review the narrative of our analysis in [our jupyter notebook](./Flatiron_School_Image_Classification.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
 
 For any additional questions, please contact **andypeng93@gmail.com)
 
