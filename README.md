@@ -8,11 +8,11 @@ The contents of this repository detail an analysis of the module 4 project. This
 
 ### Business problem:
 
-I am tasked to build a model that can classify whether a given patient has penumonia or not given a chest x-ray image.
+I am tasked to create a model that can accurately predict whether the patient has Pneumonia or not given a patient's chest xray image. 
 
 
 ### Data
-Data includes over 5000 chest x-ray images of patients with labels of having pneumonia or not.
+Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). The dataset contains three folders training, validation and testing. Each folder is filled with chest xray images used for training and testing the model that we will create.
 
 
 ## Methods
@@ -49,34 +49,26 @@ Data includes over 5000 chest x-ray images of patients with labels of having pne
 > ROC Curve of the different Models
 
 ![Model Results](./Visualizations/ModelResults.PNG)
-> Model Results of Base Model and Model Tuning
+> Model Results
 
-* AUC - Random Forest with GridSearchCV
+* Accuracy/ Recall - Baseline Model
+* Precision/F1 Score - Imbalance Model
 
-* Accuracy/ F1 Score/ Recall - XGBoost
-
-* Precision - Decision Tree with GridSearchCV
 
 
 
 ## Recommendations:
 
-To summarize everything above, we can see from above that to correctly classified a patient as having heart disease we need to consider the following features.
+To summarize everything above, we can see from above that
 
-1) Gener of the individual - Males have a higher chance at having heart disease than females.
+* Recall/Accuracy - ModelB
+* Precicion/F1 Score/ AUC - ModelI
 
-2) Asymptomatic Chest Pain - Individuals with this type of chest pain have a high chance of having heart disease
-
-3) Reversable Defect - If the thalium stress result turns out to be reversable defect, the individual would have a high chance of having heart disease.
-
-4) Age & Maxium Heart Rate - As you get older, your maximum heart rate goes down. We can see that individuals that have heart disease tend to be older and have a lower maximum heart rate.
-
-Our modeling shows that a regular XGBoost is the best model for our problem. This is because we want a model that generates a high recall value in order to minimize the chance of us classifying an individual as false negatives. Being that heart disease is really serious, it would be dangerous if we wrongly classify a person with no heart disease when they indeed do have heart disease.
-
+Our goal is to minimize the amount of people we classify as being normal, but they indeed do have Pneumonia. Therefore we would want to minimize false negatives in other words maximizing recall. Our recommendation is to stick with ModelI. Although modelB was slightly better in recall and accuracy, there was only a slight difference in the recall and accuracy score. Also ModelI did better in precision score, F1 score and AUC score. Therefore ModelI is the best model to use for predictions.
 
 ## Limitations & Next Steps
 
-There are many features that we haven't considered. For example whether the family has a genetic disorder, body fat percentage, and the individual's diet. Also our model can be further improved by gathering more patient's information.
+There are many things that we didn't due to lack of time and money constraints. For example, we can ask a doctor what they would look at in a chest xray image to determine whether a patient has Pneumonia or not. We could also use cross validation or gather more data to further improve our models.
 
 
 ### For further information
@@ -92,7 +84,7 @@ Here is where you would describe the structure of your repoistory and its conten
 ```
 
 ├── README.md                       <- The top-level README for reviewers of this project.
-├── Heart Disease.ipynb             <- narrative documentation of analysis in jupyter notebook
+├── Image Classification.ipynb             <- narrative documentation of analysis in jupyter notebook
 ├── presentation.pdf                <- pdf version of project presentation
 └── Visualization
     └── images                          <- both sourced externally and generated from code
