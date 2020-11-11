@@ -60,7 +60,7 @@ To summarize everything above, we can see from above that
 * Recall/Accuracy - ModelB
 * Precicion/F1 Score/ AUC - ModelI
 
-Our goal is to minimize the amount of people we classify as being normal, but they indeed do have Pneumonia. Therefore we would want to minimize false negatives in other words maximizing recall. Our recommendation is to stick with ModelI. Although modelB was slightly better in recall and accuracy, there was only a slight difference in the recall and accuracy score. Also ModelI did better in precision score, F1 score and AUC score. Therefore ModelI is the best model to use for predictions.
+Our goal is to minimize the amount of patients we classify as healthy when they do indeed have Pneumonia. Therefore we would want to minimize false negatives in other words maximizing recall. Our recommendation is to stick with ModelI. Although modelB was slightly better in recall and accuracy, there was only a slight difference in the recall and accuracy score. Also ModelI did better in precision score, F1 score and AUC score. Therefore ModelI is the best model to use for predictions.
 
 ## Limitations & Next Steps
 
