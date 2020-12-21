@@ -25,7 +25,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 
 
 #### Visual 1
-![Chest XRay Image 1](./Visualizations/normal.PNG)
+<img src=./Visualizations/normal.PNG width="770">
 > Normal Chest XRay
 
 #### Visual 2
