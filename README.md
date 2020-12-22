@@ -29,7 +29,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 > Normal Chest XRay
 
 #### Visual 2
-![Chest XRay Image 2](./Visualizations/pneumonia.PNG)
+<img src=./Visualizations/pneumonia.PNG width="770">
 > Pneumonia Chest XRay
 
 #### Visual 3
