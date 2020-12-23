@@ -33,7 +33,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 > Pneumonia Chest XRay
 
 #### Visual 3
-![First Activation](./Visualizations/first_channel.PNG)
+<img src=./Visualizations/first_channel.PNG width="750">
 > First Activation of ModelI
 
 #### Visual 4
