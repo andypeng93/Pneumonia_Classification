@@ -37,7 +37,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 > First Activation of ModelI
 
 #### Visual 4
-![Sixth Activation](./Visualizations/sixth_channel.PNG)
+<img src=./Visualizations/sixth_channel.PNG width="750">
 > Sixth Activation of ModelI
 
 #### Models
