@@ -41,7 +41,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 > Sixth Activation of ModelI
 
 #### Models
-![ROC Curve](./Visualizations/AUC_Score.PNG)
+<img src=./Visualizations/AUC_Score.PNG width="750">
 > ROC Curve of the different Models
 
 ![Model Results](./Visualizations/model_table.PNG)
