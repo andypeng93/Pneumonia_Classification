@@ -44,7 +44,7 @@ Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 <img src=./Visualizations/AUC_Score.PNG width="750">
 > ROC Curve of the different Models
 
-![Model Results](./Visualizations/model_table.PNG)
+<img src=./Visualizations/model_table.PNG width="750">
 > Model Results
 
 * Accuracy/ Recall - Baseline Model
