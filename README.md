@@ -8,7 +8,7 @@ The contents of this repository detail an analysis of the module 4 project. This
 
 ### Business problem:
 
-I am tasked to create a model that can accurately predict whether the patient has Pneumonia or not given a patient's chest xray image. 
+The task is to create a model that can accurately predict whether the patient has Pneumonia or not given a patient's chest xray image. 
 
 
 ### Data
