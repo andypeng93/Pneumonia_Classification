@@ -12,7 +12,7 @@ The task is to create a model that can accurately predict whether the patient ha
 
 
 ### Data
-Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). The dataset contains three folders training, validation and testing. Each folder is filled with chest xray images used for training and testing the model that we will create.
+Our dataset comes from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). The dataset contains three folders training, validation and testing. Each folder is filled with chest xray images used for training and testing the model that we will create. 
 
 
 ## Methods
@@ -64,7 +64,7 @@ Our goal is to minimize the amount of patients we classify as healthy when they 
 
 ## Limitations & Next Steps
 
-There are many things that we didn't due to lack of time and money constraints. For example, we can ask a doctor what they would look at in a chest xray image to determine whether a patient has Pneumonia or not. We could also use cross validation or gather more data to further improve our models.
+There are many things that we didn't due to lack of time and money constraints. For example, we can ask a doctor what they would look at in a chest xray image to determine whether a patient has Pneumonia or not. We could also use cross validation or gather more data to further improve our models. (Future Work - Include RNN Model)
 
 
 ### For further information
