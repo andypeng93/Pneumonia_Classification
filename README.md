@@ -1,5 +1,4 @@
 # Pneumonia Image Classification
-## Flatiron Mod 4 Project
 
 **Authors**: Andy Peng
 
